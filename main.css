@@ -147,6 +147,9 @@ footer .col-md-7 a {
 
 footer .col-md-7 a:hover, footer .col-md-7 a:active, footer .col-md-7 a:visited {
     text-decoration: none;
+}
+
+footer .col-md-7 a:first-child:hover {
     opacity: 0.3;
 }
 
@@ -154,12 +157,16 @@ footer .col-md-7 a:hover, footer .col-md-7 a:active, footer .col-md-7 a:visited 
     padding-top: 20px;
 }
 
-.github:hover {
+.links a {
     opacity: 0.3;
 }
 
-.upwork:hover {
-    opacity: 0.3;
+.links a:hover {
+    opacity: 1;
+}
+
+.skype {
+    padding-right: 10px;
 }
 
 
